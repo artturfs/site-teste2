@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: static;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;    
+}
+
+
+.root{
+    --cor-de-menu: rgb(0, 0, 0);
+    --cor-titulo: #292929;
+    --cor-texto: rgb(161, 161, 161);
+}
+
+.a{
+    color: var(--cor-de-menu);
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+.a:hover{
+    opacity: 30%;
+    transition: 1s;
+}
+
+.logo{
+    margin-left: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: var(--cor-de-menu);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.507);
+    margin: 0 auto;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-right: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-de-texto);
+}
+
+.contatos{
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 0.3px solid rgba(0, 0, 0, 0.473);
+    border-radius: 45px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: var(--cor-de-menu);
+}
+
+.contatos:hover{
+    opacity: 70%;
+}
+
+/* */
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+#scroll{
+    scroll-snap-align: start;
+}
+
+
+
+.slide1{
+    height: 92vh;
+    background: linear-gradient(to top right, black, #292929);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.h1-inicio{
+    font-size: 60px;
+    text-align: center;
+    max-width: 70%;
+    font-weight: 200;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+.botao1{
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+.botao1:hover{
+    opacity: 80%;
+}
+
+.slide2{
+    height: 100vh;
+}
+/* */
+.nav-list2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list2 li{
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-right: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #292929;
+    height: 8vh;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.507);
+    margin: 0 auto;
+}
+
+/* */
+
+.sobre{
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+    border-bottom: 1px solid black;
+}
+
+.h1-sobre{
+    font-size: 60px;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: 200;
+    color: var(--cor-de-titulo);
+    margin-top: 60px;
+}
+
+.p-sobre{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.sobre-desc{
+    display: flex;
+
+}
+
+.subp-sobre1, .subp-sobre2{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: xx-large;
+    font-weight: 400;
+    max-width: 50%;
+    margin: 80px;
+}
+
+
+span{
+    border-bottom: 1px solid black;
+}
+
+.slide3{
+    height: 100vh;
+    background-color: #000000;
+    width: 100%;
+}
+
+.slide4{
+    height: 100vh;
+    background-color: #ffffff;
+    width: 100%;
+}
